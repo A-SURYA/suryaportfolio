@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Front End Web Developer.","Professional Coder.", "UI Designer."],
+      words: ["Front End Web Developer.","Professional Coder.", "Software Developer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        Experienced and motivated Front-End Web Developer with 1.5 years of expertise in creating innovative web design and seamless user experience. Proficient in JavaScript, HTML, CSS and with a strong command of Vue.js, React.js, jQuery and modern front-end frameworks. Collaborative team player focused on driving project success through effective cross-functional communication and dynamic implementation of various front-end technologies
+        Experienced and motivated Front-End Web Developer with 3 years of expertise in creating innovative web designs and seamless user experiences. Proficient in JavaScript, TypeScript, HTML, and CSS, with strong command over Angular, React.js, Vue.js, jQuery, and modern front-end frameworks. A collaborative team player focused on driving project success through effective cross-functional communication and the dynamic implementation of various front-end technologies.
         </p>
       </div>
      <Media />

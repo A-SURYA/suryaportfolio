@@ -4,6 +4,10 @@ import Card from "./Card";
 import { MdDeveloperMode } from "react-icons/md";
 import { FiFigma } from "react-icons/fi";
 import { IoLogoLaravel } from "react-icons/io5";
+import { DiResponsive } from "react-icons/di";
+import { IoIosGitNetwork } from "react-icons/io";
+import { SiJira } from "react-icons/si";
+import { MdSwitchAccessShortcutAdd } from "react-icons/md";
 // import { featuresData } from "../../data/data";
 const Features = () => {
   return (
@@ -24,9 +28,24 @@ const Features = () => {
         icon={<FiFigma/>}
         />
         <Card
-        title="Backend Developer"
-        des="A backend developer using PHP and Laravel develops server-side logic and database management to support the functionality and performance of websites"
-        icon={<IoLogoLaravel/>}
+        title="Responsive & Cross-Browser Design"
+        des="Develops adaptive layouts that deliver consistent user experiences across different devices and browsers."
+        icon={<DiResponsive />}
+        />
+        <Card
+        title="API Integration & State Management"
+        des="Experience in connecting front-end applications with backend APIs using RESTful services and managing state with RxJS, Redux, or NgRx."
+        icon={<IoIosGitNetwork />}
+        />
+        <Card
+        title="Tools & Version Control"
+        des="Proficient with Git, GitHub, VS Code, Postman, Figma, and JIRA, ensuring smooth project management and collaboration across teams."
+        icon={<SiJira  />}
+        />
+        <Card
+        title="Continuous Learning & Innovation"
+        des="Passionate about exploring new frameworks, libraries, and design trends to deliver modern, efficient, and maintainable web solutions."
+        icon={<MdSwitchAccessShortcutAdd  ira  />}
         />
         {/* {featuresData.map((item) => (
           <Card item={item} key={item.id} />
