@@ -36,7 +36,7 @@ const Media = () => {
           <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
-          <div className="flex gap-4">
+          <div className="flex gap-4 flex-wrap">
             <span className="bannerIcon">
               <FaReact />
             </span>
